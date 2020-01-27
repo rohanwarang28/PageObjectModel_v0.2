@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="193555" started-at="2020-01-27T13:42:36Z" finished-at="2020-01-27T13:45:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="193555" started-at="2020-01-27T13:42:36Z" finished-at="2020-01-27T13:45:49Z">
+      <class name="com.qa.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="setup" is-config="true" duration-ms="5057" started-at="2020-01-27T19:13:36Z" finished-at="2020-01-27T19:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="createNewContact" duration-ms="39553" started-at="2020-01-27T19:13:41Z" data-provider="putContactData" finished-at="2020-01-27T19:14:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tom@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="tearDown" is-config="true" duration-ms="802" started-at="2020-01-27T19:14:20Z" finished-at="2020-01-27T19:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="setup" is-config="true" duration-ms="5119" started-at="2020-01-27T19:14:21Z" finished-at="2020-01-27T19:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="createNewContact" duration-ms="40845" started-at="2020-01-27T19:14:26Z" data-provider="putContactData" finished-at="2020-01-27T19:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="tearDown" is-config="true" duration-ms="751" started-at="2020-01-27T19:15:07Z" finished-at="2020-01-27T19:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="setup" is-config="true" duration-ms="4106" started-at="2020-01-27T19:15:08Z" finished-at="2020-01-27T19:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="createNewContact" duration-ms="36484" started-at="2020-01-27T19:15:12Z" data-provider="putContactData" finished-at="2020-01-27T19:15:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harry@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harry]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bhat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.ContactsPageTest@59ec2012]" name="tearDown" is-config="true" duration-ms="709" started-at="2020-01-27T19:15:48Z" finished-at="2020-01-27T19:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.ContactsPageTest -->
+      <class name="com.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.tests.LoginPageTest@402a079c]" name="setup" is-config="true" duration-ms="14964" started-at="2020-01-27T19:12:36Z" finished-at="2020-01-27T19:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.tests.LoginPageTest@402a079c]" name="loginTest" duration-ms="21876" started-at="2020-01-27T19:12:51Z" finished-at="2020-01-27T19:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@402a079c]" name="tearDown" is-config="true" duration-ms="1114" started-at="2020-01-27T19:13:13Z" finished-at="2020-01-27T19:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.tests.LoginPageTest@402a079c]" name="setup" is-config="true" duration-ms="8544" started-at="2020-01-27T19:13:14Z" finished-at="2020-01-27T19:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:0, instance:com.qa.tests.LoginPageTest@402a079c]" name="verifyLoginPageTitle" duration-ms="9766" started-at="2020-01-27T19:13:22Z" finished-at="2020-01-27T19:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@402a079c]" name="tearDown" is-config="true" duration-ms="1034" started-at="2020-01-27T19:13:32Z" finished-at="2020-01-27T19:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
